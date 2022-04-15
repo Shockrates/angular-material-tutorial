@@ -70,7 +70,7 @@ export class DeviceInputComponent implements OnInit {
           //alert("Device updated");
           this.deviceForm.reset();
           this.dialogRef.close('update');
-          //console.log('Updated');
+          console.log('Updated');
         },
         error:()=>{
           alert("Error while updating device")
