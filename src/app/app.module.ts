@@ -23,6 +23,7 @@ import {MatTableModule} from '@angular/material/table';
 import { DeviceComponent } from './device/device.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
+import { DeviceDetailsComponent } from './device/device-details/device-details.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import {MatSortModule} from '@angular/material/sort';
     AppComponent,
     DeviceInputComponent,
     HeaderComponent,
-    DeviceComponent
+    DeviceComponent,
+    DeviceDetailsComponent
   ],
   imports: [
     BrowserModule,

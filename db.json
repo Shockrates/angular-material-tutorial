@@ -1,7 +1,7 @@
 {
   "deviceList": [
     {
-      "serialNumber": "112117",
+      "serialNumber": "112116",
       "description": "test122",
       "type": "Tablet",
       "status": "Manufacturer Refurbished",
@@ -20,7 +20,7 @@
       "serialNumber": "66666",
       "description": "test115",
       "type": "Laptop",
-      "status": "Manufacturer Refurbished",
+      "status": "Second Hand",
       "datePurchased": "2022-04-14T21:00:00.000Z",
       "id": 3
     },

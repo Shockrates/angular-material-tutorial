@@ -19,6 +19,9 @@
               <ng-container matColumnDef="actions">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> Actions </th>
                 <td mat-cell *matCellDef="let row"> 
+                  <button mat-icon-button color="success">
+                    <mat-icon>details</mat-icon>
+                  </button>
                   <button mat-icon-button (click)="editDevice(row)" color="primary">
                     <mat-icon>edit</mat-icon>
                   </button>
