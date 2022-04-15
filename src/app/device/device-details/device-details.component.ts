@@ -8,10 +8,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class DeviceDetailsComponent implements OnInit {
 
+  id: string = '';
   constructor(private router:Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    const id = this.route.snapshot.paramMap.get('id') || '';
+     this.id = this.route.snapshot.paramMap.get('id') || '';
     
   }
 

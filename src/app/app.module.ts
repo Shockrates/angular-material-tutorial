@@ -24,6 +24,8 @@ import { DeviceComponent } from './device/device.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 import { DeviceDetailsComponent } from './device/device-details/device-details.component';
+import { ConfirmDeleteComponent } from './confirm-delete/confirm-delete.component';
+
 
 
 @NgModule({
@@ -32,7 +34,8 @@ import { DeviceDetailsComponent } from './device/device-details/device-details.c
     DeviceInputComponent,
     HeaderComponent,
     DeviceComponent,
-    DeviceDetailsComponent
+    DeviceDetailsComponent,
+    ConfirmDeleteComponent
   ],
   imports: [
     BrowserModule,

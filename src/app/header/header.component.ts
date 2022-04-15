@@ -21,7 +21,6 @@ export class HeaderComponent implements OnInit {
     }).afterClosed().subscribe(val=>{
       
       if (val==='save'){
-        console.log('Save');
         this.notifyForChange();
         
       }

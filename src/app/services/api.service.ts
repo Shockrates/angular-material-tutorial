@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Device } from '../models/device.model';
 
 @Injectable({
   providedIn: 'root'
@@ -10,12 +12,12 @@ export class ApiService {
 
   url: string = "http://localhost:3000/deviceList/"
 
-  getDevice(){
-    return this.http.get<any>(this.url);
+  getAllDevices():Observable<Device[]>{
+    return this.http.get<Device[]>(this.url);
   }
 
-  postDevice(data: any){
-    return this.http.post<any>(this.url, data);
+  postDevice(data: Device):Observable<Device>{
+    return this.http.post<Device>(this.url, data);
   }
 
   updateDevice(data:any, id: number){

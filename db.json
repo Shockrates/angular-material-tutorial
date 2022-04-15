@@ -7,30 +7,6 @@
       "status": "Manufacturer Refurbished",
       "datePurchased": "2022-04-20T21:00:00.000Z",
       "id": 1
-    },
-    {
-      "serialNumber": "23113",
-      "description": "test82",
-      "type": "Laptop",
-      "status": "Brand New",
-      "datePurchased": "2022-04-14T21:00:00.000Z",
-      "id": 2
-    },
-    {
-      "serialNumber": "66666",
-      "description": "test115",
-      "type": "Laptop",
-      "status": "Second Hand",
-      "datePurchased": "2022-04-14T21:00:00.000Z",
-      "id": 3
-    },
-    {
-      "serialNumber": "252525",
-      "description": "test81",
-      "type": "Laptop",
-      "status": "Seller Refurbished",
-      "datePurchased": "2022-04-20T21:00:00.000Z",
-      "id": 4
     }
   ],
   "comments": [

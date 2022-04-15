@@ -13,7 +13,8 @@ export class Device {
         this.id=_id;
         this.serialNumber=serialNumber;
         this.description=description;
-        this.type=DeviceType[type];
+        //this.type=DeviceType[type];
+        this.type=type;
         this.status=status;
         this.datePurchased = datePurchased;
         this.employeeId=employeeId
